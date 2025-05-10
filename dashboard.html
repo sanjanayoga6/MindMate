@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MindMate - Mood Tracker Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>MindMate Mood Tracker</h1>
+    <p class="subtitle">Your mood trends over time</p>
+    
+    <!-- Mood trend chart -->
+    <div class="chart-container">
+      <canvas id="moodChart" height="100"></canvas>
+    </div>
+    
+    <!-- Recent journal entries -->
+    <section id="journalEntries">
+      <h2>Your Recent Entries</h2>
+      <!-- Entries will be populated by JavaScript -->
+    </section>
+    
+    <p><a href="index.html">🏠 Back to Mood Logging</a></p>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MindMate - Mood Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 MindMate</h1>
+    <p class="subtitle">Log your mood and thoughts for today</p>
+
+    <label>Select your mood:</label>
+    <div class="emoji-selector" id="emojiSelector">
+      <button class="emoji" data-mood="10" title="Very Happy 😄">😄</button>
+      <button class="emoji" data-mood="8" title="Happy 🙂">🙂</button>
+      <button class="emoji" data-mood="6" title="Neutral 😐">😐</button>
+      <button class="emoji" data-mood="4" title="Bored 😑">😑</button>
+      <button class="emoji" data-mood="3" title="Anxious 😟">😟</button>
+      <button class="emoji" data-mood="2" title="Sad 😢">😢</button>
+      <button class="emoji" data-mood="1" title="Frustrated 😣">😣</button>
+      <button class="emoji" data-mood="0" title="Angry 😡">😡</button>
+      <button class="emoji" data-mood="5" title="Tired 😴">😴</button>
+    </div>
+    <p id="selectedMoodText">Selected mood: 😐 (6)</p>
+
+    <label for="note">Journal Entry:</label>
+    <textarea id="note" placeholder="Write your thoughts..."></textarea>
+
+    <button onclick="saveEntry()">Save Entry</button>
+
+    <p><a href="dashboard.html">📊 View Dashboard</a></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
