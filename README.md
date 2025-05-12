@@ -13,10 +13,10 @@ The app uses a SaaS model whereas the deployment platorm that is Vercel is a Paa
 
 **What kind of technologies are used:**
 Firstly Visual Studio Code was used to write the codes 
-1. Index.HTML: for the app's structure and layout
-2. Style.CSS: for the app's styling (background colours, placement) and layout
+1. index.html: for the app's structure and layout
+2. style.css: for the app's styling (background colours, placement) and layout
 3. Script.js: a javascript for the app's functionality and data management
-4. dashboard.HTML: for the graphical visualization of the mood trends
+4. dashboard.html: for the graphical visualization of the mood trends
 5. dashboard.js: javascript for the functionality of dashboard
 
 **Deployed on Vercel**
