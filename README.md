@@ -3,7 +3,7 @@
 **Topic: MindMate:** a mood tracker application that allows users to log their moods daily, track emotional trends over time, and maintain journal entries for self-reflection.
 The app uses a SaaS model whereas the deployment platorm that is Vercel is a PaaS model
 
-**Live Demo:** mindmate-d9lgd29bd-sanjanayoga6s-projects.vercel.app
+**Live Demo:** https://mindmate-d9lgd29bd-sanjanayoga6s-projects.vercel.app/
 
 **Main features of the application**
 1. Users can log in their mood daily (it has diverse options such as happy, sad, angry, anxious, frustrated and neutral with emojis)
